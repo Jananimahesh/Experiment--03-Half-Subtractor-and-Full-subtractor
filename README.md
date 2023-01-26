@@ -39,13 +39,16 @@ Developed by: janani.m
 RegisterNumber: 22006734 
 */
 Half subtractor
+
 module project(A,B,Diff,Borrow);
 input A,B;
 output Diff,Borrow;
 assign Diff=(A^B);
 assign Borrow=(~A&B);
 endmodule
+
 Full subtractor
+
 module fullsubtractor (A,B,C,Diff,Borrow);
 input A,B,C;
 output Diff,Borrow;
@@ -58,8 +61,14 @@ endmodule
 
 ## Truthtable
 The truth table of half subtractor
+
+
 ![image](https://user-images.githubusercontent.com/119432417/211179565-eb846a1f-d7fd-4eae-99dd-a763c39c6e78.png)
+
+
 The truth table of full subtractor
+
+
 ![image](https://user-images.githubusercontent.com/119432417/211179584-f0a8c330-e8fd-4689-a3f0-e212f30ba4ff.png)
 
 
@@ -67,8 +76,14 @@ The truth table of full subtractor
 
 ##  RTL realization
 The RTL realization of Half subtractor
+
+
 ![Screenshot (11)](https://user-images.githubusercontent.com/119432417/211178658-f8c82e6e-8772-43ff-a1fd-29383ebfea6e.png)
+
+
 The RTL realization of Full subtractor
+
+
 ![Screenshot (12)](https://user-images.githubusercontent.com/119432417/211179529-080e5957-fc04-4dc9-9213-d324bf932abe.png)
 
 
@@ -76,8 +91,14 @@ The RTL realization of Full subtractor
 
 ## Timing diagram 
 The timing diagram of Half subtractor
+
+
 ![image](https://user-images.githubusercontent.com/119432417/211178710-026e8716-2ff0-46ce-bc99-bf7ad68b78b1.png)
+
+
 The timing diagram for Full subtractor
+
+
 ![image](https://user-images.githubusercontent.com/119432417/211178784-a901cd83-1d11-46a9-b106-4b1f85e0e57b.png)
 
 ## Result:
